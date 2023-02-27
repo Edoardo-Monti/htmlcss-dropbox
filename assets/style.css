@@ -7,6 +7,11 @@
 
 a{
     text-decoration: none;
+    color: black;
+}
+
+img{
+    display: block;
 }
 
 /* Parte di navigazione */
@@ -34,4 +39,69 @@ a{
     border: 2px dashed black;
     width: 100%;
     position: fixed;
+    background-color: white;
+}
+
+.bg-blue{
+    background-color: rgb(1, 96, 255);
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Parte del titolo */
+.bg-azzure{
+    background-color: rgb(179,208,231);
+    /* height: 600px; */
+}
+
+.container-70{
+    width: 70%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dashed black;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.start{
+    align-items: flex-start;
+}
+
+/* header section div:nth-child(2){
+    padding-top: 30px;
+} */
+
+.space p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.basis-30{
+    flex-basis: 30%;
+}
+
+.basis-70{
+    flex-basis: 70%;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.position{
+    background-size: cover;
+    right: -10px;
+    top: 30px;
+    padding: 0 auto;
+}
+
+header i{
+    font-size: 50px;
 }
