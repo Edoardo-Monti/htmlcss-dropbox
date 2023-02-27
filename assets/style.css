@@ -106,6 +106,9 @@ header i{
 /* Parte Main */
 .container-60{
     width: 60%;
+}
+
+main{
     margin: 100px auto
 }
 
@@ -120,9 +123,13 @@ input:nth-child(4){
 
 .card{
     flex-basis: calc(100% / 3 - 2%);
-    min-height: 300px;
-    border: 2px dashed black;
+    /* min-height: 900px; */
+    border: 1px solid lightgray;
     margin: 40px 0;
+}
+
+hr{
+    border:0.5px solid lightgray;
 }
 
 .column{
@@ -142,8 +149,7 @@ main i{
 }
 
 .inside-container{
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 20px 20px;
 }
 
 h3{
@@ -159,4 +165,38 @@ li{
     list-style-type: none;
     margin-bottom: 10px;
     
+}
+
+.button{
+    margin: 30px auto;
+}
+
+.line-fine{
+    margin-left: 30px;
+}
+
+.line-fine a{
+    text-decoration: underline;
+    color: rgb(1, 96, 255);
+}
+
+.little{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    width: 50px;
+}
+
+p strong{
+    margin-left: 30px;
+}
+.list{
+    margin-left: 20px;
+}
+.list li::before{
+    content: "\2713";
+    font-size: 25px;
+    color: rgb(1, 96, 255);
+    margin-left: -1em;  /*TI SPOSTA VERSO DESTRA LE SCRITTE*/
+
 }
