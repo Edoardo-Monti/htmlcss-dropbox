@@ -95,7 +95,8 @@ h1{
 .position{
     background-size: cover;
     right: -10px;
-    top: 30px;
+    /* top: 30px; */
+    bottom: -100px;
     padding: 0 auto;
 }
 
@@ -125,7 +126,8 @@ input:nth-child(4){
     flex-basis: calc(100% / 3 - 2%);
     /* min-height: 900px; */
     border: 1px solid lightgray;
-    margin: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 hr{
@@ -154,7 +156,7 @@ main i{
 
 h3{
     font-size: 25px;
-    margin-bottom: 10px;
+    margin: auto 0;
 }
 
 .cl-gray{
@@ -198,5 +200,22 @@ p strong{
     font-size: 25px;
     color: rgb(1, 96, 255);
     margin-left: -1em;  /*TI SPOSTA VERSO DESTRA LE SCRITTE*/
-
 }
+
+main div .inside-container div{
+    margin-bottom: 20px;
+}
+
+/* Card 4 */
+.card-4{
+    border: 1px solid lightgray;
+    margin: 10px 0;
+}
+ 
+.card-4 .inside-container {
+    margin-bottom: 20px;
+}
+
+.card-4 .inside-container p{
+    margin-top: 50px;
+} 
