@@ -219,3 +219,43 @@ main div .inside-container div{
 .card-4 .inside-container p{
     margin-top: 50px;
 } 
+
+/* Sezione Partner */
+.cont-partner{
+    margin: 150px auto;
+}
+
+.basis-60{
+    flex-basis: 60%;
+}
+
+.basis-40{
+    flex-basis: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cont-partner .basis-40 p{
+    margin: 40px auto;
+}
+
+.bg-white{
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+}
+
+/* Sezione operazioni */
+.basis-six{
+    flex-basis: calc(100% / 3 - 2%);
+    margin-bottom: 50px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.basis-six h3{
+    margin: 20px auto;
+}
