@@ -109,7 +109,7 @@ header i{
     width: 60%;
 }
 
-main{
+.main{
     margin: 100px auto
 }
 
@@ -202,7 +202,7 @@ p strong{
     margin-left: -1em;  /*TI SPOSTA VERSO DESTRA LE SCRITTE*/
 }
 
-main div .inside-container div{
+.main div .inside-container div{
     margin-bottom: 20px;
 }
 
@@ -258,4 +258,25 @@ main div .inside-container div{
 
 .basis-six h3{
     margin: 20px auto;
+}
+
+#blue-line{
+    text-decoration: underline;
+    color: rgb(1, 96, 255);
+}
+
+/* Sezione Clienti */
+.client-container{
+    height: 90vh;
+    border: 1px dashed black;
+}
+
+.basis-egual-3{
+    flex-basis: calc(100% / 3);
+    border: 1px dashed black;
+}
+
+.basis-egual-4{
+    flex-basis: calc(100% / 2);
+    border: 1px dashed black;
 }
