@@ -266,17 +266,58 @@ p strong{
 }
 
 /* Sezione Clienti */
-.client-container{
-    height: 90vh;
-    border: 1px dashed black;
+#client-container{
+    /* height: 90vh; */
+    /* border: 1px dashed black; */
 }
 
 .basis-egual-3{
     flex-basis: calc(100% / 3);
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .basis-egual-4{
     flex-basis: calc(100% / 2);
-    border: 1px dashed black;
+    padding-top: 50%;
+}
+
+.cl-1{
+    background-color:rgb(162, 211, 155) ;
+}
+
+.cl-2{
+    background-color: rgb(97, 9, 43);
+}
+
+.cl-3{
+    background-color: rgb(0, 147, 206);
+}
+
+.cl-4{
+    background-color: rgb(255, 27, 28);
+}
+
+.cl-5{
+    background-color: rgb(213, 0, 31);
+}
+
+.cl-6{
+    background-color: rgb(179, 208, 231);
+}
+
+.cl-7{
+    background-color: rgb(14, 35, 129);
+}
+
+.cl-8{
+    background-color: rgb(255, 215, 47);
+}
+
+.img-position{
+    width: 50%;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
 }
