@@ -50,6 +50,10 @@ img{
     padding: 10px 20px;
 }
 
+.bg-blue:hover{
+    filter: opacity(90%)
+}
+
 /* Parte del titolo */
 .bg-azzure{
     background-color: rgb(179,208,231);
@@ -245,8 +249,16 @@ li{
     padding: 10px 20px;
 }
 
+.bg-white:hover{
+    color: rgb(90, 90, 90);
+}
+
 .btn{
     border: 2px solid black;
+}
+
+.btn:hover{
+    border: 1px solid rgb(90, 90, 90);
 }
 
 /* Sezione operazioni */
