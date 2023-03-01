@@ -189,9 +189,10 @@ li{
     width: 50px;
 }
 
-p strong{
+.card p strong{
     margin-left: 30px;
 }
+
 .list{
     margin-left: 20px;
 }
@@ -379,7 +380,7 @@ p strong{
 }
 
 .hover-1:hover .cont-hover1{
-    display: block;
+    display: block;   
 }
 
 .hover-2:hover .cont-hover2{
@@ -388,4 +389,16 @@ p strong{
 
 .hover-3:hover .cont-hover3{
     display: block;
+}
+
+.hover-1:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
+
+.hover-2:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
+
+.hover-3:hover .fa-angle-down{
+    transform: rotate(180deg);
 }
