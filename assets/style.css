@@ -362,9 +362,30 @@ p strong{
 
 .margin-0-auto{
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 80px 0;
 }
 
 #client-container-2 h2{
     color: rgb(97,9,43);
+}
+
+/* Sezione FAQ */
+.faq-cont{
+    margin: 30px 0;
+}
+
+.cont-hover1, .cont-hover2, .cont-hover3{
+    display: none;
+}
+
+.hover-1:hover .cont-hover1{
+    display: block;
+}
+
+.hover-2:hover .cont-hover2{
+    display: block;
+}
+
+.hover-3:hover .cont-hover3{
+    display: block;
 }
